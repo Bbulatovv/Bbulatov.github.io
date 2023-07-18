@@ -256,3 +256,78 @@ html {
     font-size: 24px;
     font-weight: 600;
 }
+
+.contact {
+    margin-top: 200px;
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    color: var(--light-content, #A7A7A7);
+    width: 170px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.email {
+    width: 230px;
+    color: var(--light-content, #A7A7A7);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.divider_footer {
+    margin: 0 auto;
+    margin-top: 53px;
+    width: 1195px;
+    height: 6px;
+    stroke-width: 2px;
+    background: var(--solid-heading, #42446E);
+    opacity: 0.30000001192092896;
+}
+
+footer {
+    margin-top: 60px;
+    height: 90px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_greeting {
+    color: var(--light-content, #A7A7A7);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+
+.footer_greeting > span {
+    background: var(--gradient-heading, linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
