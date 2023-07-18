@@ -204,3 +204,55 @@ html {
     font-weight: 600;
     text-align: center;
 }
+
+.about {
+    margin-top: 100px;
+    height: 500px;
+}
+
+.year_cards_wrapper {
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 350px;
+    grid-gap: 20px;
+}
+.year_card_title {
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #E70FAA;
+    margin: 0 auto;
+    margin-top: 20px;
+    z-index: 999;
+}
+
+.line {
+    width: 910px;
+    height: 12px;
+    background-color: #FFF;
+    position: absolute;
+    top: 73px;
+    left: 140px;
+    z-index: -1;
+}
+
+.year_card_descr {
+    margin-top: 20px;
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
